@@ -1,8 +1,8 @@
 # wottagirl
 Responsive Perfume Web  page
 
-#teck Stack
+# teck Stack
 HTML5, CSS3, JAVASCRIPT
 
-#run
+# run
 Download the code and just run index.html
