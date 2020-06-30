@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.toolbar {
+    padding: 20px;
+    background: linear-gradient(to right, #00004d, #0099cc);
+}
+
+@media only screen and (max-width: 860px) {
+    #wrap {
+        flex-flow: column;
+    }
+}
+
+#wrap {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+div#display_wrapr {
+    flex: 1;
+}
+
+#perfume_display {
+    width: 60%;
+    height: 60%;
+}
+
+.round-btn-wrap {
+    padding: 5px;
+}
+
+.card-2 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.rounded {
+    border: solid;
+    border-width: 1px;
+    border-color: #00000026;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.colr {
+    background-color: #9e9e9e;
+}
+
+.text-xs-center {
+    text-align: center;
+}
+
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube-1 {
+    animation-delay: 0.2s;
+}
+
+div#info-wrapr {
+    flex: 2;
+    display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+    #info-wrapr {
+        flex-flow: column;
+    }
+}
+
+div#box-2 {
+    flex: 2;
+    padding: 25px;
+}
+
+.progressbar {
+    width: 100%;
+    background-color: black;
+    border-radius: 13px;
+    margin-right: 5px;
+}
+
+.progressbar_packaging {
+    background: linear-gradient(to right, #00004d, #0099cc);
+    height: 20px;
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+.progressbar_scent {
+    background: linear-gradient(to right, #00004d, #0099cc);
+    height: 20px;
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+.progressbar_ValueForMoney {
+    background: linear-gradient(to right, #00004d, #0099cc);
+    height: 20px;
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+.progressbar_Longlasting {
+    background: linear-gradient(to right, #00004d, #0099cc);
+    height: 20px;
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+div#box-3 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#girlImage {
+    transition: all 2s;
+    margin-top: 15px;
+    transform-origin: calc(100% - 15px) 50%;
+    width: 360px;
+}
+
+#imageDiv {
+    height: 80px;
+    display: inline-block;
+    width: 165px;
+}
